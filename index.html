@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Responsive</title>
+    <style>
+        .gambar {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 576px) {
+            table{
+                width: 100%;
+                background-color: aqua;
+            }
+            .gambar {
+                width: 100%;
+            }
+        }
+
+        /* Small devices (portait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 576px) {
+            table {
+                width: 100%;
+                background-color: aquamarine;
+            }
+            .gambar {
+                width: 600px;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            table{
+                width: 80%;
+                background-color: yellow;
+            }
+            .gambar {
+                width: 800px;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            table {
+                width: 70%;
+                background-color: green;
+            }
+            .gambar {
+                width: 1000px;
+            }
+        }
+
+        /* Large devices (laptop/desktops, 992px and up) */
+        @media only screen and (min-width: 1200px) {
+            table {
+                width: 70%;
+                background-color: blue;
+            }
+            .gambar {
+                width: 1250px;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1400px) {
+            table{
+                width: 50%;
+                background-color: red;
+            }
+            .gambar {
+                width: 1450px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vian</td>
+                <td>X-U7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rehan</td>
+                <td>X PIONER</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Astra</td>
+                <td>X-U3</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="images/garnacho.png" alt="garnacho" class="gambar">
+</body>
+</html>
